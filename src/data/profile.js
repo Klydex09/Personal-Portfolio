@@ -1,0 +1,23 @@
+export const profile = {
+  initials: "K9",
+  name: "James Klyde N. Honor",
+  birthdate: "December 10, 2006",
+  age: 19,
+  location: "Bulacao / Cabancalan 1 area, Cebu",
+  school: "Cebu Eastern College",
+  course: "Bachelor of Science in Information Technology",
+  yearLevel: "Second Year",
+  section: "Section 1",
+  job: "Non-Voice Customer Service Representative",
+  company: "Concentrix IT Park",
+  account: "Financial-status account",
+  startDate: "May 11, 2026",
+  workHours: "2:00 AM – 11:00 AM",
+  email: "jamesklydexhonor@gmail.com",
+  contactNumber: "09947504622",
+  motto: "Past is past. No looking back. Keep it simple, move forward, make every choice count, and remember: Safety First.",
+  bio: "James Klyde N. Honor is a second-year BSIT student and a working student at Concentrix IT Park. He is a fast learner who values critical thinking, honesty, reliability, and learning from mistakes. He enjoys volleyball, gaming, music, movies, anime, and manhwa. He tends to overthink and philosophize, but uses humor and positivity to keep things light. He believes in keeping life simple, moving forward, and making every choice count.",
+  family: "Relationship Status: Broke off before the relationship became official; it ended before I had the chance to propose or formally ask her to be my girlfriend. ARAY KOOO!!!",
+  philosophy: "Experiences, friendships, relationships, mistakes, and decisions all contribute to personal growth. I try to learn from what happened, stay cautious, and keep moving forward.",
+  profileImage: "/media/profile.jpg"
+};
