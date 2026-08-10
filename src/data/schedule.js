@@ -7,7 +7,6 @@ export const weeklySchedule = {
 
   monday: [
     { start: "2:00 AM", end: "12:00 PM", title: "REST DAY", type: "rest" },
-    { start: "12:00 PM", end: "1:30 PM", title: "VACANT", type: "free" },
     { start: "1:30 PM", end: "3:00 PM", title: "INTRODUCTION TO HCI", type: "school" },
     { start: "3:00 PM", end: "5:30 PM", title: "VACANT", type: "free" },
     { start: "5:30 PM", end: "6:30 PM", title: "ART APPRECIATION", type: "school" },
@@ -17,7 +16,7 @@ export const weeklySchedule = {
   ],
 
   tuesday: [
-    { start: "6:00 AM", end: "3:00 PM", title: "WORK — CONCENTRIX", type: "work" },
+    { start: "2:00 AM", end: "11:00 AM", title: "WORK — CONCENTRIX", type: "work" },
     { start: "12:00 PM", end: "1:30 PM", title: "OOP", type: "school" },
     { start: "1:30 PM", end: "3:00 PM", title: "VACANT", type: "free" },
     { start: "3:00 PM", end: "5:30 PM", title: "PLATFORM TECHNOLOGIES", type: "school" },
@@ -28,8 +27,7 @@ export const weeklySchedule = {
   ],
 
   wednesday: [
-    { start: "6:00 AM", end: "3:00 PM", title: "WORK — CONCENTRIX", type: "work" },
-    { start: "12:00 PM", end: "1:30 PM", title: "VACANT", type: "free" },
+    { start: "2:00 AM", end: "11:00 AM", title: "WORK — CONCENTRIX", type: "work" },
     { start: "1:30 PM", end: "3:00 PM", title: "INTRODUCTION TO HCI", type: "school" },
     { start: "3:00 PM", end: "3:30 PM", title: "VACANT", type: "free" },
     { start: "3:30 PM", end: "5:30 PM", title: "PATHFIT 3", type: "school" },
@@ -40,7 +38,7 @@ export const weeklySchedule = {
   ],
 
   thursday: [
-    { start: "6:00 AM", end: "3:00 PM", title: "WORK — CONCENTRIX", type: "work" },
+    { start: "2:00 AM", end: "11:00 AM", title: "WORK — CONCENTRIX", type: "work" },
     { start: "12:00 PM", end: "1:30 PM", title: "OOP", type: "school" },
     { start: "1:30 PM", end: "3:00 PM", title: "VACANT", type: "free" },
     { start: "3:00 PM", end: "5:30 PM", title: "PLATFORM TECHNOLOGIES", type: "school" },
@@ -51,13 +49,13 @@ export const weeklySchedule = {
   ],
 
   friday: [
-    { start: "6:00 AM", end: "3:00 PM", title: "WORK — CONCENTRIX", type: "work" },
+    { start: "2:00 AM", end: "11:00 AM", title: "WORK — CONCENTRIX", type: "work" },
     { start: "3:00 PM", end: "9:00 PM", title: "NO CLASS", type: "free" },
     { start: "9:00 PM", end: "11:59 PM", title: "HOME", type: "home" }
   ],
 
   saturday: [
-    { start: "6:00 AM", end: "3:00 PM", title: "WORK — CONCENTRIX", type: "work" },
+    { start: "2:00 AM", end: "11:00 AM", title: "WORK — CONCENTRIX", type: "work" },
     { start: "3:00 PM", end: "9:00 PM", title: "NO CLASS", type: "free" },
     { start: "9:00 PM", end: "11:59 PM", title: "HOME", type: "home" }
   ]
