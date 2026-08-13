@@ -6,8 +6,8 @@ export default function About() {
     <div>
       <SectionTitle
         eyebrow="SYSTEM"
-        title="About Personal Life OS"
-        description="A personal dashboard designed around James's studies, work, schedule and memories."
+        title="About James Klyde Honor"
+        description="A personal digital world built around studies, work, stories, projects, creative work, and meaningful life updates."
       />
 
       <div className="info-grid">
@@ -19,8 +19,8 @@ export default function About() {
 
         <article className="glass-card info-card">
           <ShieldCheck />
-          <h3>Privacy</h3>
-          <p>The vault has a browser-session password gate, but real credentials should still be stored in a secure backend.</p>
+          <h3>Public Privacy</h3>
+          <p>This portfolio only exposes information that is safe to share publicly, including projects, stories, skills, and media.</p>
         </article>
 
         <article className="glass-card info-card">
@@ -37,10 +37,10 @@ export default function About() {
       </div>
 
       <div className="glass-card panel">
-        <h3>Personal Life OS</h3>
+        <h3>Personal Digital World</h3>
         <p className="large-copy">
           This system combines personal information, education, work, schedules, goals,
-          notes, finances, projects and personal media into one organized interface.
+          stories, projects, skills, media, and creative writing into one organized digital world.
         </p>
 
         <div className="chip-row">
@@ -50,7 +50,7 @@ export default function About() {
           <span className="tag">Responsive UI</span>
           <span className="tag">Interactive Map</span>
           <span className="tag">Media Gallery</span>
-          <span className="tag">Vault Gate</span>
+          <span className="tag">Story Archive</span>
         </div>
       </div>
     </div>

@@ -1,8 +1,7 @@
 import { NavLink } from "react-router-dom";
 import {
-  BarChart3, BookOpen, CalendarDays, CheckSquare, FolderKanban,
-  Gauge, Goal, KeyRound, MapPin, NotebookPen, Settings, Sparkles,
-  UserRound, WalletCards, X, Images
+  CalendarDays, CheckSquare, FolderKanban, Gauge, Goal, Images,
+  NotebookPen, Settings, Sparkles, UserRound, UsersRound, BookOpen, X
 } from "lucide-react";
 
 const groups = [
@@ -10,7 +9,6 @@ const groups = [
     label: "Portfolio",
     items: [
       ["About Me", "/portfolio", UserRound],
-      ["Location", "/portfolio#location", MapPin],
       ["Projects", "/projects", FolderKanban],
       ["Skills", "/skills", Sparkles],
       ["Media Gallery", "/media", Images]
@@ -22,24 +20,14 @@ const groups = [
     items: [
       ["Notes", "/notes", NotebookPen],
       ["Tasks", "/tasks", CheckSquare],
-      ["Activities", "/activities", BookOpen],
-      ["Goals", "/goals", Goal]
+      ["Stories", "/stories", BookOpen],
+      ["Goals", "/goals", Goal],
+      ["Connected Accounts", "/connected-accounts", UsersRound]
     ]
   },
   {
     label: "Schedule",
     items: [["Calendar", "/calendar", CalendarDays]]
-  },
-  {
-    label: "Finance",
-    items: [
-      ["Expenses", "/expenses", WalletCards],
-      ["Reports", "/reports", BarChart3]
-    ]
-  },
-  {
-    label: "Security",
-    items: [["Account Vault", "/vault", KeyRound]]
   },
   {
     label: "System",
@@ -64,7 +52,7 @@ export default function Sidebar({ open, onClose, collapsed }) {
         </div>
 
         <nav className="sidebar-nav">
-          {groups.map((group) => (
+          {groups.map(group => (
             <div className="nav-group" key={group.label}>
               <div className="nav-label">{group.label}</div>
               {group.items.map(([label, path, Icon]) => (

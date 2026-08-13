@@ -2,15 +2,15 @@ export const projects = [
   {
     id: 1,
     name: "Front End Portfolio",
-    description: "A frontend-only personal digital dashboard for school, work, schedules, expenses, projects and life information.",
+    description: "A frontend-only personal digital dashboard for school, work, schedules, projects, stories, and life information.",
     technologies: ["React", "Vite", "JavaScript", "CSS"],
     status: "In-Progress",
     progress: 85
   },
   {
     id: 2,
-    name: "Student Budget Tracking System",
-    description: "A student-oriented system for tracking allowance, expenses, balances and reports.",
+    name: "Student Information Dashboard",
+    description: "A student-oriented dashboard for tracking schedules, goals, tasks, notes, and project progress.",
     technologies: ["ASP.NET Core MVC", "C#", "HTML", "CSS", "JavaScript"],
     status: "Finished",
     progress: 100

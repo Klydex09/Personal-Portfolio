@@ -1,8 +1,8 @@
-import { Menu, Clock3, PanelLeftClose, PanelLeftOpen, LockKeyhole } from "lucide-react";
+import { Menu, Clock3, PanelLeftClose, PanelLeftOpen } from "lucide-react";
 import { useEffect, useState } from "react";
 import { profile } from "../data/profile";
 
-export default function Header({ onMenu, onToggleSidebar, sidebarCollapsed, onLockVault }) {
+export default function Header({ onMenu, onToggleSidebar, sidebarCollapsed }) {
   const [time, setTime] = useState(new Date());
 
   useEffect(() => {
@@ -29,8 +29,8 @@ export default function Header({ onMenu, onToggleSidebar, sidebarCollapsed, onLo
         </button>
 
         <div className="topbar-title">
-          <span>My Daily Life</span>
-          <h1>Kisokay!</h1>
+          <span>JAMES KLYDE HONOR</span>
+          <h1>Personal Digital World</h1>
         </div>
       </div>
 
@@ -38,44 +38,15 @@ export default function Header({ onMenu, onToggleSidebar, sidebarCollapsed, onLo
         <div className="live-time" aria-live="polite" title="Current local time">
           <Clock3 size={15} />
           <div>
-            <strong>
-              {time.toLocaleTimeString([], {
-                hour: "2-digit",
-                minute: "2-digit",
-                hour12: true
-              })}
-            </strong>
-            <small>
-              {time.toLocaleDateString([], {
-                weekday: "short",
-                month: "short",
-                day: "numeric"
-              })}
-            </small>
+            <strong>{time.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit", hour12: true })}</strong>
+            <small>{time.toLocaleDateString([], { weekday: "short", month: "short", day: "numeric" })}</small>
           </div>
         </div>
 
-        <button
-          className="icon-button vault-lock-button"
-          onClick={onLockVault}
-          title="Lock Account Vault"
-          aria-label="Lock Account Vault"
-        >
-          <LockKeyhole size={17} />
-          <span>Lock</span>
-        </button>
-
-        {/* This is the same JK profile used throughout the OS. */}
         <div className="header-profile" title={profile.name}>
           <div className="header-avatar">
             {profile.profileImage ? (
-              <img
-                src={profile.profileImage}
-                alt={profile.name}
-                onError={(event) => {
-                  event.currentTarget.style.display = "none";
-                }}
-              />
+              <img src={profile.profileImage} alt={profile.name} onError={event => { event.currentTarget.style.display = "none"; }} />
             ) : null}
             <span>{initials}</span>
           </div>
