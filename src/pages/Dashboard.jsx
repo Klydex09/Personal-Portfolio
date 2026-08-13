@@ -129,7 +129,7 @@ export default function Dashboard() {
           <div className="live-now-banner">
             <Clock3 size={17} />
             <div>
-              <span>NOW</span>
+              <span>NOW   </span>
               <strong>{currentActivity?.title || "No scheduled activity right now"}</strong>
             </div>
           </div>
