@@ -1,4 +1,5 @@
 ﻿import { useMemo, useState } from "react";
+import { useEffect, useRef } from "react";
 import { ArrowLeft, ChevronLeft, ChevronRight, Pause, Play, Volume2, VolumeX } from "lucide-react";
 import { novelUniverse } from "../data/novel";
 
@@ -24,12 +25,41 @@ const tabs = [
   { id: "spoilers", label: "Spoilers", icon: "🔐" },
 ];
 
-export default function NovelUniverse({ onBack }) {
+export default function NovelUniverse({ onBack, music }) {
   const [activeTab, setActiveTab] = useState("overview");
   const [selectedChapter, setSelectedChapter] = useState(novelUniverse.chapters?.[0] ?? null);
   const [showSpoilers, setShowSpoilers] = useState(false);
   const [musicOn, setMusicOn] = useState(false);
   const [volume, setVolume] = useState(0.45);
+  const audioRef = useRef(null);
+  const rawMusic = selectedChapter?.music || music || novelUniverse.music || null;
+  const activeMusic = typeof rawMusic === "string" ? { title: "Story soundtrack", src: rawMusic } : rawMusic;
+
+  useEffect(() => {
+    if (!audioRef.current) return;
+    audioRef.current.pause();
+    audioRef.current.currentTime = 0;
+    setMusicOn(false);
+  }, [activeMusic?.src]);
+
+  useEffect(() => {
+    if (audioRef.current) audioRef.current.volume = volume;
+  }, [volume]);
+
+  const toggleMusic = async () => {
+    if (!audioRef.current || !activeMusic?.src) return;
+    if (musicOn) {
+      audioRef.current.pause();
+      setMusicOn(false);
+      return;
+    }
+    try {
+      await audioRef.current.play();
+      setMusicOn(true);
+    } catch {
+      setMusicOn(false);
+    }
+  };
 
   const currentChapterIndex = useMemo(() => {
     if (!selectedChapter || !novelUniverse.chapters) return 0;
@@ -440,13 +470,14 @@ export default function NovelUniverse({ onBack }) {
 
       <div className="ss-content-wrapper">
         <div className="ss-music-player">
+          {activeMusic?.src ? <audio ref={audioRef} src={activeMusic.src} onEnded={() => setMusicOn(false)} /> : null}
           <Volume2 size={20} className="ss-music-icon" />
           <div className="ss-music-info">
-            <b>Background Music</b>
-            <small>Atmospheric soundtrack</small>
+            <b>{activeMusic?.title || "No music selected"}</b>
+            <small>{selectedChapter?.music ? "Chapter soundtrack" : "Story background music"}</small>
           </div>
           <div className="ss-music-controls">
-            <button onClick={() => setMusicOn((value) => !value)} title={musicOn ? "Pause" : "Play"}>
+            <button onClick={toggleMusic} title={musicOn ? "Pause" : "Play"} aria-label={musicOn ? "Pause music" : "Play music"} disabled={!activeMusic?.src}>
               {musicOn ? <Pause size={14} /> : <Play size={14} />}
             </button>
             <button onClick={() => setVolume((value) => (value === 0 ? 0.45 : 0))} title="Mute">

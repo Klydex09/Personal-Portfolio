@@ -12,5 +12,7 @@ export const notes = [
     date: "2025-02-22",
     category: "Career",
     content: "Finish BSIT, improve technical skills, gain experience, and eventually build a stable career in the technology industry."
-  }
+  },
+  // Add PDF notes with: type: "PDF", description, and file: "/media/notes/category/filename.pdf".
+  // Static PDFs belong in public/media/notes so Vite serves them at /media/notes/...
 ];

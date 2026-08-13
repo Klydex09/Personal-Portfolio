@@ -9,14 +9,14 @@ export const mediaItems = [
 {
   type: "video",
   title: "Volleyball",
-  src: "/media/vid1.mp4",
+  src: "/media/v.mp4",
   date: "2024-00-00",
   description: "Volleyball"
 },
 {
   type: "video",
   title: "Volleyball",
-  src: "/media/vid2.mp4",
+  src: "/media/v2.mp4",
   date: "2024-00-00",
   description: "Volleyball"
 },

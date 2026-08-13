@@ -99,7 +99,7 @@ export default function Stories() {
           <button className="back-button" onClick={() => setSelectedId(null)}>
             <ArrowLeft size={17} /> Back to Stories
           </button>
-          <NovelUniverse />
+          <NovelUniverse music={selectedStory.music} />
         </div>
       );
     }

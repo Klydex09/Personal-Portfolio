@@ -3,7 +3,7 @@ export const survivorRecord = {
   title: "SS Survivor: The Survivor's Record",
   type: "Fiction",
   year: "Complete",
-  cover: "/media/stories/survivor-record-cover.jpg",
+  cover: "/media/stories/Aethris.png",
   description: "The complete account of James Klyde Honor's fifteen-year struggle against the Overseers' Game, from the initial disappearance to breaking the system itself.",
   narration: "James Klyde Honor",
   estimatedReadTime: "2-3 hours",

@@ -1664,6 +1664,16 @@ th { color:#777; text-transform:uppercase; font-size:9px; letter-spacing:.1em; }
 .music-copy span { display:flex; flex-direction:column; }
 .music-copy small { color:var(--muted); font-size:10px; margin-top:2px; }
 .story-music input[type="range"] { flex:1; accent-color:var(--orange); min-width:80px; }
+.note-actions { display:flex; flex-wrap:wrap; gap:10px; margin-top:16px; align-items:center; }
+.note-actions .secondary-button { text-decoration:none; }
+.pdf-viewer-backdrop { position:fixed; inset:0; z-index:1000; display:flex; padding:24px; background:rgba(5,8,14,.8); backdrop-filter:blur(8px); }
+.pdf-viewer { width:min(1200px, 100%); height:min(900px, 100%); margin:auto; display:flex; flex-direction:column; overflow:hidden; border:1px solid var(--border); border-radius:20px; background:var(--surface); box-shadow:var(--shadow); }
+.pdf-viewer-header, .pdf-viewer-footer { display:flex; align-items:center; justify-content:space-between; gap:16px; padding:16px 20px; background:var(--surface2); }
+.pdf-viewer-header h2 { display:flex; align-items:center; gap:9px; margin:3px 0 0; font-size:18px; }
+.pdf-viewer-body { flex:1; min-height:0; background:#16181f; }
+.pdf-frame { display:block; width:100%; height:100%; min-height:460px; border:0; background:#fff; }
+.pdf-error { height:100%; display:grid; place-content:center; justify-items:center; gap:10px; padding:32px; text-align:center; color:var(--text); }
+.pdf-error h3, .pdf-error p { margin:0; }
 .story-content { margin-top:16px; padding:38px; }
 .story-chapter-heading { border-bottom:1px solid var(--border); padding-bottom:20px; margin-bottom:25px; }
 .story-chapter-heading h3 { font-family:"Playfair Display"; font-size:34px; margin:8px 0 0; }
@@ -2318,6 +2328,11 @@ blockquote { border-left:4px solid var(--orange); padding-left:16px; color:var(-
   .story-content { padding:25px; }
 }
 @media (max-width: 600px) {
+  .pdf-viewer-backdrop { padding:0; }
+  .pdf-viewer { width:100%; height:100%; border-radius:0; }
+  .pdf-viewer-header,.pdf-viewer-footer { padding:13px 15px; }
+  .pdf-viewer-header h2 { font-size:15px; }
+  .pdf-frame { min-height:0; }
   .story-card-footer { flex-direction:column; }
   .story-music { flex-wrap:wrap; }
   .music-copy { min-width:0; flex:1; }

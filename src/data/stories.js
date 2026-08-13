@@ -8,7 +8,7 @@ export const stories = [
     description: "A fictional survival story built around a world where ordinary people are trapped inside a dangerous game.",
     music: {
       title: "Story Theme",
-      src: "/media/music/His Angels x Order 66 March INTENSE EPIC VERSION Warhammer 40k x Star Wars.mp3"
+      src: "/media/music/His Angels x Order 66 March  INTENSE EPIC VERSION  Warhammer 40k x Star Wars.mp3"
     },
     chapters: [
       {
@@ -17,9 +17,7 @@ export const stories = [
           "This is the opening chapter of the story.",
           "Replace this text with the actual chapter whenever you are ready."
         ],
-        media: [
-          { type: "image", src: "/media/stories/ss-survivor-scene.jpg", caption: "Chapter scene" }
-        ]
+        media: []
       }
     ]
   },
@@ -31,6 +29,7 @@ export const stories = [
     cover: "/media/stories/ohye.jpg",
     description: "A personal journey through love, loss, friendship, and discovering what it means to grow up.",
     music: "/media/music/逆時針向 - Asphyxia (AlexDy Remix).mp3"
+    ,
     highlights: [
       { person: "ExGirl", role: "First Love", lesson: "Mistakes and Betrayal" },
       { person: "Angkong", role: "Best Friend", lesson: "Loyalty and Support" },
