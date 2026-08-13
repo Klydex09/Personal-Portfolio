@@ -29,6 +29,9 @@ export default function Stories() {
   const audioRef = useRef(null);
 
   const selectedStory = allStories.find(story => story.id === selectedId) || null;
+  const selectedStoryMusic = typeof selectedStory?.music === "string"
+    ? { title: "Story soundtrack", src: selectedStory.music }
+    : selectedStory?.music;
 
   const types = useMemo(
     () => ["All", ...new Set(allStories.map(story => story.type))],
@@ -54,7 +57,7 @@ export default function Stories() {
   }, [volume]);
 
   const toggleMusic = async () => {
-    if (!audioRef.current || !selectedStory?.music?.src) return;
+    if (!audioRef.current || !selectedStoryMusic?.src) return;
     if (playing) {
       audioRef.current.pause();
       setPlaying(false);
@@ -143,12 +146,12 @@ export default function Stories() {
           </section>
         ) : null}
 
-        {selectedStory.music ? (
+        {selectedStoryMusic ? (
           <div className="story-music glass-card">
-            <audio ref={audioRef} src={selectedStory.music.src} onEnded={() => setPlaying(false)} />
+            <audio ref={audioRef} src={selectedStoryMusic.src} onEnded={() => setPlaying(false)} />
             <div className="music-copy">
               <Volume2 size={18} />
-              <span><b>{selectedStory.music.title}</b><small>Story background music</small></span>
+              <span><b>{selectedStoryMusic.title}</b><small>Story background music</small></span>
             </div>
             <button className="icon-button" onClick={toggleMusic} aria-label={playing ? "Pause music" : "Play music"}>
               {playing ? <Pause size={17} /> : <Play size={17} />}
