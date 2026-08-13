@@ -4,11 +4,11 @@ export const stories = [
     title: "SS Survivor: Break the Overseers",
     type: "Fiction",
     year: "Ongoing",
-    cover: "/media/stories/ss-survivor-cover.jpg",
+    cover: "/media/stories/ss-survivor-cover.png",
     description: "A fictional survival story built around a world where ordinary people are trapped inside a dangerous game.",
     music: {
       title: "Story Theme",
-      src: "/media/music/story-theme.mp3"
+      src: "/media/music/His Angels x Order 66 March INTENSE EPIC VERSION Warhammer 40k x Star Wars.mp3"
     },
     chapters: [
       {
@@ -28,11 +28,11 @@ export const stories = [
     title: "Past Is Past — My Story",
     type: "Life Story",
     year: "2026",
-    cover: "/media/stories/past-is-past-cover.jpg",
+    cover: "/media/stories/ohye.jpg",
     description: "A personal journey through love, loss, friendship, and discovering what it means to grow up.",
-    music: null,
+    music: "/media/music/逆時針向 - Asphyxia (AlexDy Remix).mp3"
     highlights: [
-      { person: "Cheenie", role: "First Love", lesson: "Mistakes and Betrayal" },
+      { person: "ExGirl", role: "First Love", lesson: "Mistakes and Betrayal" },
       { person: "Angkong", role: "Best Friend", lesson: "Loyalty and Support" },
       { person: "Tatay (Ehrryl)", role: "Brother", lesson: "Strength in Brotherhood" }
     ],
