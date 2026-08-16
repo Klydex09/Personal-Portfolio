@@ -12,7 +12,7 @@ export const connectedAccounts = [
     category: "Social",
     username: "James Klyde Honor",
     status: "Connected",
-    url: "",
+    url: "https://www.facebook.com/jamesklydexhonor",
     description: "Personal social profile."
   },
   {
@@ -20,7 +20,7 @@ export const connectedAccounts = [
     category: "Gaming",
     username: "Klydex09",
     status: "Connected",
-    url: "",
+    url: "https://www.roblox.com/users/100922033/profile?friendshipSourceType=PlayerSearch",
     description: "Gaming and Roblox development."
   },
   {
@@ -28,7 +28,7 @@ export const connectedAccounts = [
     category: "Communication",
     username: "Kaine",
     status: "Connected",
-    url: "",
+    url: "https://discord.com/channels/@Kaine",
     description: "Community and communication."
   },
   {
