@@ -72,7 +72,7 @@ export const mediaItems = [
 {
   type: "photos",
   title: "BFF",
-  src: "/media/pic7.jpg",
+  src: "/media/pic8.jpg",
   date: "None",
   description: "friend"
 },
@@ -96,6 +96,55 @@ export const mediaItems = [
   src: "/media/pic14.jpg",
   date: "None",
   description: "Me"
+},
+{
+  type: "video",
+  title: "Volleyball",
+  src: "/media/v3.mp4",
+  date: "2024-00-00",
+  description: "Volleyball"
+}, 
+{
+  type: "video",
+  title: "Volleyball",
+  src: "/media/v4.mp4",
+  date: "2024-00-00",
+  description: "Volleyball"
+},
+{
+  type: "video",
+  title: "Volleyball",
+  src: "/media/v5.mp4",
+  date: "2024-00-00",
+  description: "Volleyball"
+},
+{
+  type: "video",
+  title: "Volleyball",
+  src: "/media/v6.mp4",
+  date: "2024-00-00",
+  description: "Volleyball"
+},
+{
+  type: "video",
+  title: "Volleyball",
+  src: "/media/v7.mp4",
+  date: "2024-00-00",
+  description: "Volleyball"
+},
+{
+  type: "video",
+  title: "Volleyball",
+  src: "/media/v8.mp4",
+  date: "2024-00-00",
+  description: "Volleyball"
+},
+{
+  type: "video",
+  title: "Volleyball",
+  src: "/media/v9.mp4",
+  date: "2024-00-00",
+  description: "Volleyball"
 },
 {
   type: "photos",
