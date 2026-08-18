@@ -23,7 +23,7 @@ export const stories = [
     title: "Past Is Past — My Story",
     type: "Life Story",
     year: "2026",
-    cover: "null",
+    cover: "/media/stories/ohye.png",
     description: "A personal journey through love, loss, friendship, and discovering what it means to grow up.",
     music: "/media/music/逆時針向 - Asphyxia (AlexDy Remix).mp3"
     ,
