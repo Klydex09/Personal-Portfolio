@@ -1,24 +1,17 @@
 export const notes = [
   {
-    id: 1,
-    title: "Personal Philosophy",
-    date: "2022-12-10",
-    category: "Personal",
-    content: "Past is past. Learn from experiences, keep things simple, move forward, and make every choice count. Safety First."
-  },
-  {
     id: "HCI",
     title: "HCI Midterm II",
     description: "Review material for HCI studies. 2nd Year BSIT",
-    category: "Human-Computer-Interaction",
+    category: "Human-Computer-Interaction Midterm",
     type: "PDF",
     file: "/media/notes/HCI/HCI - User Needs.pdf"
   },
   {
-    id: "HCI",
+    id: "Human-Computer-Interaction",
     title: "HCI Midterm I",
     description: "Review material for HCI studies. 2nd Year BSIT",
-    category: "Human-Computer-Interaction",
+    category: "Human-Computer-Interaction Midterm",
     type: "PDF",
     file: "/media/notes/HCI/HCI - PERSONAS.pdf"
   },
@@ -26,30 +19,23 @@ export const notes = [
     id: "P.E",
     title: "PathFit II Midterm",
     description: "Review material: Topic: Volleyball. 2nd Year BSIT",
-    category: "PathFit",
+    category: "PathFit Midterm",
     type: "PDF",
     file: "/media/notes/PathFit/PATHFIT_3_Sports_Midterm_Module.pdf"
   },
   {
-    id: 2,
-    title: "Career Direction",
-    date: "2025-02-22",
-    category: "Career",
-    content: "Finish BSIT, improve technical skills, gain experience, and eventually build a stable career in the technology industry."
-  },
-  {
-    id: "IM",
+    id: "Information Management",
     title: "Information Management I",
     description: "Review material for SQL and Database. 2nd Year BSIT",
-    category: "IM",
+    category: "Information Management Midterm",
     type: "PDF",
     file: "/media/notes/Information Managemnt/IM 1,1.pdf"
   },
   {
-    id: "IM",
+    id: "Information Management",
     title: "Information Management II",
     description: "Review material for SQL and Database. 2nd Year BSIT",
-    category: "IM",
+    category: "Information Management Midterm",
     type: "PDF",
     file: "/media/notes/Information Managemnt/IM 1.2.pdf"
   },
@@ -57,28 +43,60 @@ export const notes = [
     id: "Arts",
     title: "Arts Appreciation",
     description: "Review material for Arts. 2nd Year BSIT",
-    category: "Arts",
+    category: "Arts Midterm",
     type: "PDF",
     file: "/media/notes/Arts/Humanities_Arts_Appreciation_Midterm.pdf"
   },
   {
-    id: "Arts",
-    title: "Arts Appreciation",
-    description: "Review material for Arts. 2nd Year BSIT",
-    category: "Arts",
+    id: "STS",
+    title: "Science-Technology and Society",
+    description: "Review material for Science and Technology and Society. 2nd Year BSIT",
+    category: "Sciences Midterm",
     type: "PDF",
     file: "/media/notes/STS/STS_Indigenous_to_Good_Life.pdf"
   },
+   {
+    id: "STS",
+    title: "Science-Technology and Society Study notes",
+    description: "Review material for Science and Technology and Society. 2nd Year BSIT",
+    category: "Sciences Midterm",
+    type: "PDF",
+    file: "/media/notes/STS/STS_Indigenous_to_Good_Life_Study_Notes.pdf"
+  },
   {
-    id: "rizal-review-er",
+    id: "Coding",
+    title: "Object-Oriented-programming Code Sample",
+    description: "Review material for OOP. 2nd Year BSIT",
+    category: "Object-Oriented-Programming Midterm",
+    type: "PDF",
+    file: "/media/notes/OOP CODE/Java_Food_Registration_System.pdf"
+  },
+  {
+    id: "Web",
+    title: "Web-Systems-Technology I",
+    description: "Review material for WST. 2nd Year BSIT",
+    category: "Web-Systems-Technology Midterm",
+    type: "PDF",
+    file: "/media/notes/Web/MIDTERM-WEEK-7.docx.pdf"
+  },
+   {
+    id: "Web",
+    title: "Web-Systems-Technology II",
+    description: "Review material for WST. 2nd Year BSIT",
+    category: "Web-Systems-Technology Midterm",
+    type: "PDF",
+    file: "/media/notes/Web/MIDTERM-WEEK-8.docx.pdf"
+  },
+  {
+    id: "Chariza-Reviewer",
     title: "Rizal Review",
-    description: "Review material for Rizal studies.",
+    description: "Review material for Rizal studies. ",
     category: "Rizal",
     type: "PDF",
     file: "/media/notes/rizal/rizal-review-er.pdf"
   },
   {
-    id: "first-week-gen-ed-handouts",
+    id: "Chariza-Reviewer",
     title: "First Week General Education Handouts",
     description: "Merged handouts for General Education.",
     category: "General Education",
