@@ -18,7 +18,7 @@ export const novelUniverse = {
     {
       id: "real-world",
       name: "Real World",
-      summary: "Earth around 2025, where James Klyde Honor, Mai Sakurajima, and Futaba Rio begin their lives before the transformations begin.",
+      summary: "Earth around 2025, where Kaine Neine, Mai Sakurajima, and Futaba Rio begin their lives before the transformations begin.",
       environment: "Modern Earth, online culture, universities, cities, and the hidden broadcast of the worlds above.",
       factions: ["Earth governments", "Public observers", "Overseers"],
       status: "Origin point"
@@ -43,7 +43,7 @@ export const novelUniverse = {
   characters: [
     {
       id: "james",
-      name: "James Klyde Honor",
+      name: "Kaine Neine",
       aliases: ["The Survivor", "Supreme General"],
       age: "18 in the original timeline",
       origin: "Philippines",
@@ -63,7 +63,7 @@ export const novelUniverse = {
       role: "Hero and emotional anchor",
       world: "Aetheris",
       faction: "Heroes / Eldoria",
-      relationships: ["James Klyde Honor", "Eldorian allies", "Heroes"],
+      relationships: ["Kaine Neine", "Eldorian allies", "Heroes"],
       abilities: ["Heroic resolve", "leadership", "symbolic influence", "emotional strength"],
       summary: "A close friend of James from the real world who becomes one of the most important Heroes of Aetheris."
     },
@@ -76,7 +76,7 @@ export const novelUniverse = {
       role: "Researcher and strategic mind",
       world: "Real World / SS World",
       faction: "UEA Research",
-      relationships: ["James Klyde Honor", "Major UEA specialists"],
+      relationships: ["Kaine Neine", "Major UEA specialists"],
       abilities: ["Scientific genius", "technology adaptation", "research leadership"],
       summary: "James' longtime friend and a critical technical mind behind the UEA's research efforts."
     }
@@ -86,7 +86,7 @@ export const novelUniverse = {
       id: "uea",
       name: "United Eastern Alliance",
       type: "Alliance / Military coalition",
-      leader: "James Klyde Honor (eventually Supreme General)",
+      leader: "Kaine Neine (eventually Supreme General)",
       territory: "Eastern survivors and recovered territory across SS World",
       objectives: ["Protect humanity", "secure resources", "fight the VOID", "understand the worlds", "find a way home"],
       summary: "A coalition of surviving eastern nations that eventually organizes into a military and political alliance against the VOID."
@@ -95,7 +95,7 @@ export const novelUniverse = {
       id: "behemoth",
       name: "Behemoth",
       type: "Elite military force",
-      leader: "James Klyde Honor",
+      leader: "Kaine Neine",
       territory: "SS World and limited Aetheris deployments",
       objectives: ["Elite protection", "combat operations", "strategic warfare", "specialized anti-VOID missions"],
       summary: "The strongest military arm of the UEA. It is powerful, disciplined, and not invincible."
@@ -212,7 +212,7 @@ export const novelUniverse = {
   heroes: [
     { name: "Mai Sakurajima", role: "Hero of Aetheris" },
     { name: "Other Heroes", role: "Aetheris adventurers and soldiers" },
-    { name: "James Klyde Honor", role: "Survivor turned military commander" }
+    { name: "Kaine Neine", role: "Survivor turned military commander" }
   ],
   arcs: [
     { id: "transportation", name: "Initial Transportation", status: "Established" },
@@ -235,10 +235,10 @@ export const novelUniverse = {
       summary: "Earth changes, and the first wave of missing people is revealed to be part of a hidden system.",
       content: [
         "The world does not end with a single explosion. It ends quietly, with missing people, sudden absences, and the impossible certainty that reality itself has shifted.",
-        "James Klyde Honor is forced to confront a truth no one wants to believe: the world is under observation, and humanity is already playing a game it never agreed to join.",
+        "Kaine Neine is forced to confront a truth no one wants to believe: the world is under observation, and humanity is already playing a game it never agreed to join.",
         "What follows is not only survival, but the beginning of a new set of rules written by forces no one can name."
       ],
-      characters: ["James Klyde Honor", "Mai Sakurajima"],
+      characters: ["Kaine Neine", "Mai Sakurajima"],
       locations: ["Real World", "SS World"],
       factions: ["Overseers"],
       events: ["Initial Transportation"],
@@ -257,7 +257,7 @@ export const novelUniverse = {
         "The VOID begins as a biological nightmare but quickly evolves beyond ordinary infection. It adapts, learns, and spreads with terrifying efficiency.",
         "Against all odds, humanity begins to organize, build, and resist. The first steps of the UEA are born from crisis and necessity."
       ],
-      characters: ["James Klyde Honor", "Futaba Rio"],
+      characters: ["Kaine Neine", "Futaba Rio"],
       locations: ["World SS"],
       factions: ["UEA", "Behemoth"],
       events: ["SS World apocalypse"],
@@ -276,7 +276,7 @@ export const novelUniverse = {
         "James sits upon the throne and realizes that survival and morality are no longer separate questions.",
         "In that moment, Mai sees the man she has known and the person he has become, and the gap between them becomes impossible to ignore."
       ],
-      characters: ["James Klyde Honor", "Mai Sakurajima", "Futaba Rio"],
+      characters: ["Kaine Neine", "Mai Sakurajima", "Futaba Rio"],
       locations: ["Aetheris", "Lunaris"],
       factions: ["UEA", "Lunaris", "Behemoth"],
       events: ["Throne Scene", "Lunaris War"],
