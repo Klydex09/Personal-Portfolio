@@ -6,10 +6,7 @@ export const stories = [
     year: "Ongoing",
     cover: "/media/stories/ss-survivor-cover.png",
     description: "A fictional survival story built around a world where ordinary people are trapped inside a dangerous game.",
-    music: {
-      title: "Story Theme",
-      src: "/media/music/His Angels x Order 66 March  INTENSE EPIC VERSION  Warhammer 40k x Star Wars.mp3"
-    },
+    c,
     chapters: [
       {
         title: "The Beginning",
@@ -26,7 +23,7 @@ export const stories = [
     title: "Past Is Past — My Story",
     type: "Life Story",
     year: "2026",
-    cover: "/media/stories/ohye.jpg",
+    cover: "null",
     description: "A personal journey through love, loss, friendship, and discovering what it means to grow up.",
     music: "/media/music/逆時針向 - Asphyxia (AlexDy Remix).mp3"
     ,
@@ -100,9 +97,9 @@ export const stories = [
         media: []
       },
       {
-        title: "Cheenie — My First Love ❤️‍🩹",
+        title: "Ex — My First Love ❤️‍🩹",
         content: [
-          "Three or four years ago, when I was in Grade 10, I met my first girlfriend. Her name was Cheenie. She was in Grade 12.",
+          "Three or four years ago, when I was in Grade 10, I met my first girlfriend. Her name was EX. She was in Grade 12.",
           "She was my first girlfriend. My first love. And honestly... I really loved her.",
           "We lived only one block away from each other, so we didn't need anything fancy to spend time together. I'd go near her house. We'd sit outside. Talk. Laugh. Hang out. Sometimes we probably weren't even doing anything important. But at that age, being beside someone you loved was already enough. ❤️",
           "We were together for almost a year.",
@@ -113,14 +110,14 @@ export const stories = [
           "But there was another thought in my head too: \"She still betrayed me.\" And both things were true. I had mistakes. She hurt me. That's life sometimes.",
           "Months later, she tried to contact me again. Calls. Messages. Attempts to come back. But Angkong was there. He told me not to pursue her again. And I listened. I ignored her calls. I ignored her messages. But I never actually told her directly that I rejected her. I simply disappeared from that conversation.",
           "Looking back... Yeah. I could have handled that better. I should have been honest. I should have told her what I felt. But at that time? I was hurt. And I didn't want to open that wound again. So I closed the door. And left it there.",
-          "Cheenie became my first love. My first girlfriend. And one of my biggest lessons. ❤️‍🩹"
+          "EX became my first love. My first girlfriend. And one of my biggest lessons. ❤️‍🩹"
         ],
         media: []
       },
       {
-        title: "Cassie and Lessons Learned",
+        title: "ES and Lessons Learned",
         content: [
-          "After Cheenie, there was Cassie. My second serious attempt at a relationship.",
+          "After EX, there was ES. My second serious attempt at a relationship.",
           "We were together for almost a month. And this time, I was thinking about doing things differently. I even saved money because I wanted to properly ask her to become my girlfriend.",
           "I had plans. I was preparing. I thought maybe this could actually become something.",
           "Then... Nope. 💀 Things didn't work out.",
@@ -134,7 +131,7 @@ export const stories = [
       {
         title: "The Girl Who Made Work Different ❤️",
         content: [
-          "Eventually, I slowly forgot about Cassie. Then someone new came into my life.",
+          "Eventually, I slowly forgot about ES. Then someone new came into my life.",
           "She was also working while studying. She understood the same kind of struggle I was going through. School. Work. Responsibilities. Trying to survive both at the same time.",
           "But honestly? Looks weren't what got me. I've never cared that much about appearance.",
           "What really affects me is kindness. The way someone treats people. The small things. The moments when someone is kind without expecting anything back.",
@@ -169,7 +166,7 @@ export const stories = [
           "I'm still studying BSIT. Still working. Still playing Roblox. Still listening to music while walking. Still watching anime. Still reading manhwa. Still playing volleyball. Still overthinking. Still becoming a philosopher when nobody asked. 😭",
           "Still making jokes when nobody is laughing. Still making mistakes. Still learning. Still growing.",
           "And I'm still figuring out who I want to become.",
-          "I'm not the same person I was three or four years ago. The Grade 10 James who fell in love with Cheenie didn't understand relationships. The James who lost Cheenie didn't understand how to deal with betrayal. The James who tried again with Cassie learned to think about the future. The James who lost his phone and computer learned what real friendship can look like. And the James who quietly admires someone now is learning that sometimes kindness can make you want to become a better person.",
+          "I'm not the same person I was three or four years ago. The Grade 10 James who fell in love with ES didn't understand relationships. The James who lost ES didn't understand how to deal with betrayal. The James who tried again with ES learned to think about the future. The James who lost his phone and computer learned what real friendship can look like. And the James who quietly admires someone now is learning that sometimes kindness can make you want to become a better person.",
           "I don't know what happens next. And honestly? That's scary. 😭 But maybe it's also exciting. Because for someone who spends so much time thinking about the future, maybe I need to learn that I don't have to know everything. I just need to take the next step.",
           "If I make a mistake? I'll learn. If someone leaves? I'll accept it. If someone stays? I'll cherish them. If someone changes me for the better? I'll let them. And if life becomes complicated? I'll try to keep it simple.",
           "Because after everything I've experienced, there's one thing that hasn't changed: \"Past is past. No looking back. Keep it simple, move forward, make every choice count, and remember: Safety First.\"",
