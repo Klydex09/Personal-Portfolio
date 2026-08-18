@@ -6,7 +6,6 @@ export const stories = [
     year: "Ongoing",
     cover: "/media/stories/ss-survivor-cover.png",
     description: "A fictional survival story built around a world where ordinary people are trapped inside a dangerous game.",
-    c,
     chapters: [
       {
         title: "The Beginning",
