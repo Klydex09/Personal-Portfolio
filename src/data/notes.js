@@ -88,6 +88,14 @@ export const notes = [
     file: "/media/notes/STS/sts.pdf"
   },
   {
+    id: "PT",
+    title: "Platform Technologies Semi-Finals",
+    description: "Review material 2nd Year BSIT",
+    category: "Platform Semi-Finals",
+    type: "PDF",
+    file: "/media/notes/PT/PT-semi.pdf"
+  },
+  {
     id: "Coding",
     title: "Object-Oriented-programming Code Sample",
     description: "Review material for OOP. 2nd Year BSIT",
