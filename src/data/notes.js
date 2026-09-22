@@ -24,6 +24,14 @@ export const notes = [
     file: "/media/notes/PathFit/PATHFIT_3_Sports_Midterm_Module.pdf"
   },
   {
+    id: "P.E",
+    title: "PathFit II Semi-Finals",
+    description: "Review material: Topic: Volleyball. 2nd Year BSIT",
+    category: "PathFit Semi-Final",
+    type: "PDF",
+    file: "/media/notes/PathFit/pathfit-semi.pdf"
+  },
+  {
     id: "Information Management",
     title: "Information Management I",
     description: "Review material for SQL and Database. 2nd Year BSIT",
@@ -48,6 +56,14 @@ export const notes = [
     file: "/media/notes/Arts/Humanities_Arts_Appreciation_Midterm.pdf"
   },
   {
+    id: "Arts",
+    title: "Arts Appreciation",
+    description: "Review material for Arts. 2nd Year BSIT",
+    category: "Arts Semi-Finals",
+    type: "PDF",
+    file: "/media/notes/Arts/arts-semi.pdf"
+  },
+  {
     id: "STS",
     title: "Science-Technology and Society",
     description: "Review material for Science and Technology and Society. 2nd Year BSIT",
@@ -62,6 +78,14 @@ export const notes = [
     category: "Sciences Midterm",
     type: "PDF",
     file: "/media/notes/STS/STS_Indigenous_to_Good_Life_Study_Notes.pdf"
+  },
+  {
+    id: "STS",
+    title: "Science-Technology and Society Study notes",
+    description: "Review material for Science and Technology and Society. 2nd Year BSIT",
+    category: "Sciences Semi-Finals",
+    type: "PDF",
+    file: "/media/notes/STS/sts.pdf"
   },
   {
     id: "Coding",
@@ -86,6 +110,14 @@ export const notes = [
     category: "Web-Systems-Technology Midterm",
     type: "PDF",
     file: "/media/notes/Web/MIDTERM-WEEK-8.docx.pdf"
+  },
+  {
+    id: "Rizal",
+    title: "Life and Work of Rizal",
+    description: "Review material for LWR. 2nd Year BSIT",
+    category: "Work of Rizal",
+    type: "PDF",
+    file: "/media/notes/Rizal/rizal.pdf"
   },
   {
     id: "Chariza-Reviewer",
