@@ -41,6 +41,14 @@ export const notes = [
   },
   {
     id: "Information Management",
+    title: "Information Management II Semi-Finals",
+    description: "Review material for SQL and Database. 2nd Year BSIT",
+    category: "Information Management Semi-Finals",
+    type: "PDF",
+    file: "/media/notes/Information Managemnt/IM-semi.pdf"
+  },
+  {
+    id: "Information Management",
     title: "Information Management II",
     description: "Review material for SQL and Database. 2nd Year BSIT",
     category: "Information Management Midterm",
