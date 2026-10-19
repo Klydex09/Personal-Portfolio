@@ -21,7 +21,7 @@ export const notes = [
     description: "Review material for IT studies. 2nd Year BSIT",
     category: "OOP",
     type: "PDF",
-    file: "/media/notes/OOP CODE/Java_Food_Registration_System.pdf"
+    file: "/media/notes/OOP CODE/SmartCanteen_OOP_Capstone_Study_Guide.pdf"
   },
    {
     id: "P.E",
