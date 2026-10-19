@@ -16,6 +16,14 @@ export const notes = [
     file: "/media/notes/HCI/HCI - PERSONAS.pdf"
   },
    {
+    id: "OOP FINALS",
+    title: "OOP FINALS",
+    description: "Review material for IT studies. 2nd Year BSIT",
+    category: "OOP",
+    type: "PDF",
+    file: "/media/notes/OOP CODE/Java_Food_Registration_System.pdf"
+  },
+   {
     id: "P.E",
     title: "PathFit II Midterm",
     description: "Review material: Topic: Volleyball. 2nd Year BSIT",
